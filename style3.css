@@ -154,6 +154,9 @@ h2 {
     .food {
         width: 60%;
     } 
+  input[type="submit"] {
+ width: 80vw;
+}
     .submit {
         max-width: 80vw;
         padding: 6vw 4vw;
@@ -166,6 +169,7 @@ h2 {
   padding: 1vw 1.5vw; 
 }
 }
+
 
 
 
