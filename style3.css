@@ -159,15 +159,16 @@ h2 {
   input[type="submit"]{
         width: 90vw;
         padding: 5vw;
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 .badge {
   scale: 3.5;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
   margin-bottom: 7vw;
   padding: 1vw 1.5vw; 
 }
 }
+
 
 
 
