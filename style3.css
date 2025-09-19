@@ -1,0 +1,195 @@
+body {
+  background-color: #d7f252;
+  background-image: none;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.submit {
+  position: absolute;
+  bottom: 5%;
+  z-index: 100;
+  width: 30%;
+  padding: 1.7vw;
+  margin-bottom: 1vw;
+  border: none;
+  outline: none;
+  border-radius: 10vw;
+  background-color: #00b923;
+  font-family: "MuseoSansCyrl-500";
+  font-size: 1vw;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+}
+.submit:hover {
+    scale: 1.01;
+}
+.gradient {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: -10%;
+  background: linear-gradient(#ffffff00, #FFFFFF, #FFFFFF);
+  z-index: 10;
+}
+.food {
+    max-width: 250px;
+    position: relative;
+    top: -11vw;
+    animation: scale .7s ease-in-out;
+} 
+@keyframes scale {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 100%;
+    }
+}
+.bg {
+    background-image: url(./img/bg3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: -65vh;
+    left: -25vw;
+    width: 150vw;
+    height: 250vh;
+    z-index: -1;
+    animation: rotate 25s linear infinite;
+    transform-origin: center center;
+}
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+h2 {
+    width: 80%;
+    font-size: 2vw;
+    text-align: center;
+    position: relative;
+    top: 3vw;
+    z-index: 1;
+}
+.badge {
+    display: inline-block;
+    padding: .7vw 1.5vw;
+    background-color: #D7F252;
+    border-radius: 10vw;
+    color: #000;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+  animation: badge 5s ease-in-out infinite;
+}
+@keyframes badge {
+    0% {
+        rotate: 0;
+    }
+  20% {
+    rotate: 2deg;
+  }
+  40% {
+    rotate: -2deg;
+  }
+  60% {
+    rotate: 2deg;
+  }
+  80% {
+    rotate: -2deg;
+  }
+    100% {
+        rotate: 0;
+    }
+}
+@media (max-width: 960px) {
+    .bg {
+        top: -70vh;
+        left: -30vw;
+    }
+    .food {
+        width: 80%;
+      top: -20%;
+    } 
+    h2 {
+        font-size: 4vw;
+    }
+    .submit {
+        width: 50%;
+        padding: 2vw;
+        font-size: 2vw;
+    }
+  .badge {
+ scale: 2;
+}
+}
+@media (max-width: 480px) {
+     h2 {
+        top: 10vh;
+        font-size: 6vw;
+       
+    }
+.bg {
+        width: 300vw;
+        height: 200vh;
+        top: -40vh;
+        left: -100vw;
+    }
+    .food {
+        width: 60%;
+    } 
+    .submit {
+        width: 80%;
+        padding: 4vw;
+        font-size: 4vw;
+    }
+.badge {
+  scale: 3.5;
+    font-size: 1.5vw;
+  margin-bottom: 7vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
