@@ -9,6 +9,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+input[type="submit"] {
+ width: 30%;
+}
 .submit {
   position: absolute;
   bottom: 5%;
@@ -163,6 +166,7 @@ h2 {
   padding: 1vw 1.5vw; 
 }
 }
+
 
 
 
