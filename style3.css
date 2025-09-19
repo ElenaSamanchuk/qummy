@@ -153,7 +153,7 @@ h2 {
     } 
     .submit {
         max-width: 80vw;
-        padding: 4vw;
+        padding: 5vw 4vw;
         font-size: 4vw;
     }
 .badge {
@@ -162,6 +162,7 @@ h2 {
   margin-bottom: 7vw;
 }
 }
+
 
 
 
