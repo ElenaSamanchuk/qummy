@@ -152,7 +152,7 @@ h2 {
         width: 60%;
     } 
     .submit {
-        width: 80vw;
+        max-width: 80vw;
         padding: 4vw;
         font-size: 4vw;
     }
@@ -162,6 +162,7 @@ h2 {
   margin-bottom: 7vw;
 }
 }
+
 
 
 
