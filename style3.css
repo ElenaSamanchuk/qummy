@@ -157,7 +157,7 @@ h2 {
 
     .submit,
   input[type="submit"]{
-        max-width: 90vw;
+        width: 90vw;
         padding: 5vw;
         font-size: 5vw;
     }
@@ -168,6 +168,7 @@ h2 {
   padding: 1vw 1.5vw; 
 }
 }
+
 
 
 
