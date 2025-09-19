@@ -155,12 +155,12 @@ h2 {
         width: 60%;
     } 
   input[type="submit"] {
- width: 80vw;
+ width: 90vw;
 }
     .submit {
-        max-width: 80vw;
-        padding: 6vw 4vw;
-        font-size: 4vw;
+        max-width: 90vw;
+        padding: 5vw;
+        font-size: 5vw;
     }
 .badge {
   scale: 3.5;
@@ -169,6 +169,7 @@ h2 {
   padding: 1vw 1.5vw; 
 }
 }
+
 
 
 
