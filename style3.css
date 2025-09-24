@@ -44,9 +44,9 @@ input[type="submit"] {
   z-index: 10;
 }
 .food {
-    max-width: 260px;
+    max-width: 280px;
     position: relative;
-    top: -11vw;
+    top: -5vw;
     animation: scale .7s ease-in-out;
 } 
 @keyframes scale {
@@ -202,6 +202,7 @@ h2 {
   left: 65%;
 }
 }
+
 
 
 
