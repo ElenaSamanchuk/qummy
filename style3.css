@@ -175,7 +175,7 @@ h2 {
         left: -100vw;
     }
     .food {
-        width: 65%;
+        max-width: 80%;
     } 
 
     .submit,
@@ -201,6 +201,7 @@ h2 {
   left: 65%;
 }
 }
+
 
 
 
