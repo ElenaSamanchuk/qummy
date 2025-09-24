@@ -158,8 +158,8 @@ h2 {
 }
   .badges {
     width: 15vw;
-  top: 35%;
-  left: 60%;
+  top: 37%;
+  left: 63%;
 }
 }
 @media (max-width: 480px) {
@@ -201,6 +201,7 @@ h2 {
   left: 65%;
 }
 }
+
 
 
 
