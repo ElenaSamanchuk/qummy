@@ -175,6 +175,7 @@ h2 {
         left: -100vw;
     }
     .food {
+        top: -15%;
         max-width: 75%;
     } 
 
@@ -192,15 +193,16 @@ h2 {
 }
   .message {
   width: 40vw;
-  top: 75%;
+  top: 80%;
   left: 10%;
 }
   .badges {
    width: 27vw;
-  top: 30%;
+  top: 35%;
   left: 65%;
 }
 }
+
 
 
 
