@@ -121,7 +121,7 @@ h2 {
 .message {
   width: 15vw;
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 20%;
 }
 @media (max-width: 960px) {
@@ -184,6 +184,7 @@ h2 {
   left: 10%;
 }
 }
+
 
 
 
