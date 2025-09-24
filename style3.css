@@ -103,16 +103,16 @@ h2 {
         rotate: 0;
     }
   20% {
-    rotate: 2deg;
+    rotate: 4deg;
   }
   40% {
-    rotate: -2deg;
+    rotate: -4deg;
   }
   60% {
-    rotate: 2deg;
+    rotate: 4deg;
   }
   80% {
-    rotate: -2deg;
+    rotate: -4deg;
   }
     100% {
         rotate: 0;
@@ -164,7 +164,7 @@ h2 {
 }
 @media (max-width: 480px) {
      h2 {
-        top: 10vh;
+        top: 7vh;
         font-size: 6vw;
        
     }
@@ -175,7 +175,7 @@ h2 {
         left: -100vw;
     }
     .food {
-        max-width: 80%;
+        max-width: 75%;
     } 
 
     .submit,
@@ -197,10 +197,11 @@ h2 {
 }
   .badges {
    width: 27vw;
-  top: 37%;
+  top: 30%;
   left: 65%;
 }
 }
+
 
 
 
