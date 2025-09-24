@@ -44,9 +44,9 @@ input[type="submit"] {
   z-index: 10;
 }
 .food {
-    max-width: 350px;
+    max-width: 320px;
     position: relative;
-    top: -10vw;
+    top: -7vw;
     animation: scale .7s ease-in-out;
 } 
 @keyframes scale {
@@ -119,16 +119,16 @@ h2 {
     }
 }
 .message {
-  width: 15vw;
+  width: 13vw;
   position: absolute;
-  top: 70%;
-  left: 30%;
+  top: 73%;
+  left: 27%;
 }
 .badges {
-    width: 8vw;
+    width: 10vw;
   position: absolute;
   top: 27%;
-  left: 55%;
+  left: 65%;
   animation: badge 5s ease-in-out infinite;
 }
 @media (max-width: 960px) {
@@ -202,6 +202,7 @@ h2 {
   left: 65%;
 }
 }
+
 
 
 
