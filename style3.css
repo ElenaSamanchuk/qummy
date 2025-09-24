@@ -128,7 +128,7 @@ h2 {
     width: 7vw;
   position: absolute;
   top: 27%;
-  left: 50%;
+  left: 55%;
   animation: badge 5s ease-in-out infinite;
 }
 @media (max-width: 960px) {
@@ -201,6 +201,7 @@ h2 {
   left: 65%;
 }
 }
+
 
 
 
